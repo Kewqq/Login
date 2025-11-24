@@ -1,0 +1,35 @@
+.main_box {
+    display: flex;
+    padding: 0px 20px 0px 20px;
+    justify-content: center;
+    border: solid 0.5px black;
+    border-radius: 10px;
+    width: min-content;
+    height: max-content;
+    background-color: rgba(98, 172, 164, 0.7);
+}
+
+.login_box,
+.sigh_box {
+    padding: 35px;
+    border-radius: 20px;
+    min-width: 300px;
+    margin: 20px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    background-color: rgba(255, 255, 255, 0.475);
+    gap: 10px;
+    font-size: 17px;
+}
+
+#btn {
+    display: block;
+    align-items: center;
+    text-align: center;
+    color: whitesmoke;
+    margin: 20px 0px 20px 0px;
+}
+#login_btn{
+    width: 90%;
+}
