@@ -1,4 +1,5 @@
 .main_box {
+    margin: 20px;
     display: flex;
     padding: 0px 20px 0px 20px;
     justify-content: center;
@@ -30,11 +31,22 @@
     color: whitesmoke;
     margin: 20px 0px 20px 0px;
 }
-#login_btn{
+
+#login_btn {
     width: 90%;
 }
-#footer{
-    display: inline-flex;
-    justify-content: space-around;
 
+#footer{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(55, 55, 55, 0.741);
+    min-width: 100%;
+    margin-bottom: 0px;
+}
+
+#subFooter {
+    text-decoration: none;
+    color: white;
+    font-size: small;
 }

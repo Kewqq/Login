@@ -13,12 +13,11 @@
             background-image: url(Image_/unnamed.jpg);
             background-size: cover;
             box-sizing: border-box;
-            background-origin: border-box;
             background-attachment: fixed;
             background-repeat: no-repeat;
-            min-height: 100vh;
             margin: 0%;
-            display: grid;
+            display: block;
+            justify-items: center;
             align-items: center;
             justify-content: center;
             backdrop-filter: blur(3px);
@@ -63,6 +62,10 @@
             justify-self: end;
             font-size: small;
         }
+        ul , li{
+            text-decoration: none;
+            color: white;
+        }
     </style>
 </head>
 
@@ -91,8 +94,12 @@
         </div>
     </div>
     <div id="footer">
-        <div>
-            <a href="_blank"><h6>About us</h6></a><a href="_blank"><h6>Contact us</h6></a>
+        <div id="subFooter">
+            <ul>
+                <li><a href="_blank">About us</a></li>
+                <li><a href="_blank">Contact us</a></li>
+            </ul>
+
         </div>
     </div>
 
